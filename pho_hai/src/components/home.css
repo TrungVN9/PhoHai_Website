@@ -1,0 +1,13 @@
+.home{
+    font-family: 'Lusitana', serif;    
+}
+img{
+    /* Set up scaling */
+    height: 100%;
+    width: 100%;
+
+    /*Set up positioning */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+}

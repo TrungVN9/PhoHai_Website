@@ -2,6 +2,9 @@ import Nav from './components/navbar';
 import Home from './components/home';
 import NotFound from './components/notfound';
 import Contact from './components/contact';
+import Testimonials from './components/testimonials';
+import Menu from './components/menu';
+
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 
@@ -12,7 +15,9 @@ function App() {
         <Nav />
         <Routes>
           <Route path ='/' element={<Home />} />
+          <Route path ='/menu' element={<Menu />} />=
           <Route path ='/contact' element={<Contact />} />
+          <Route path ='/review' element={<Testimonials />} />
           <Route path ='*' element={<Navigate replace to ='/404-not-found'/>} />
           <Route path ='/404-not-found' element={<NotFound />} />
         </Routes>

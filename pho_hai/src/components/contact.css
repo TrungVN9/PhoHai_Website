@@ -1,0 +1,53 @@
+
+.contact{
+    font-family: 'Lusitana', serif;  
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+.contact-form h2{
+    font-size: 40px;
+    margin: 40px;
+}
+.form-input{
+    font-family: 'Lusitana', serif;  
+    font-size: 20px;
+    background-color: white;
+    padding: 12px;
+    width: 50%;
+    margin: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.form-input-message{
+    font-family: 'Lusitana', serif;  
+    font-size: 20px;
+    padding: 12px;
+    width: 50%;
+    height: 170px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.form-button{
+    font-family: 'Lusitana', serif;  
+    border: 1px solid rgba(210, 124, 12, 0.894);
+    border-radius: 20px;
+    width: 20%;
+    background-color: rgba(250, 235, 215, 0.894);
+    padding: 12px 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.form-button:hover{
+    color: black(210, 124, 12, 0.894);
+    background-color: rgba(210, 124, 12, 0.894);
+    transition: 0.5s;
+    cursor: pointer;
+}

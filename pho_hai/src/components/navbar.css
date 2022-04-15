@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-bar{
+    font-family: 'Lusitana', serif;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    box-sizing: border-box;
+    background-color: rgba(250, 235, 215, 0.894);
+    color: black;
+    text-transform: uppercase;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav-home, .nav-menu, .nav-review, .nav-contact{
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid rgba(210, 124, 12, 0.894);
+    border-radius: 5px;
+}
+.nav-home:hover, .nav-menu:hover, .nav-review:hover, .nav-contact:hover{
+    color: black(210, 124, 12, 0.894);
+    background-color: rgba(210, 124, 12, 0.894);
+    transition: 0.5s;
+}
+@media screen and (max-width: 800px) {
+    .logo{
+        display: flex;
+        align-items: center;
+        top: 15px;
+        left: 35px;
+    }
+    .nav-links{
+        display: none;
+    }
+}
+/* Mobile Responsive 
+.mobile-nav{
+    display: none;
+}
+@media screen and (max-width: 780px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-mobile-links{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: rgba(250, 235, 215, 0.894);
+        left: 0px;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .nav-home, .nav-menu, .nav-review, .nav-contact{
+        color: black;
+        padding: 32px;
+        width: 100%;
+        border: 2px solid orange;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .mobile-nav{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: black;
+        background-color: rgba(250, 235, 215, 0.894);
+        border: none;
+        outline: none;
+        top: 15px; 
+    }
+}
+*/
