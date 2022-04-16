@@ -1,0 +1,30 @@
+.location{
+    font-family: 'Lusitana', serif;  
+    background: rgba(250, 235, 215, 0.894);
+}
+.location h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.location h3{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.map{
+    width: 700px;
+    height: 70vh;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+}
+/* width="300"
+    height="250"
+    style={{ border: "0" }}
+     */

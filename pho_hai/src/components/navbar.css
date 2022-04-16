@@ -28,7 +28,7 @@
     font-size: 40px;
     font-weight: bold;
 }
-.nav-home, .nav-menu, .nav-review, .nav-contact{
+.nav-home, .nav-menu, .nav-review, .nav-contact, .nav-location{
     color: black;
     font-size: 20px;
     padding: 10px 20px;
@@ -37,7 +37,7 @@
     border-radius: 5px;
 }
 
-.nav-home:hover, .nav-menu:hover, .nav-review:hover, .nav-contact:hover{
+.nav-home:hover, .nav-menu:hover, .nav-review:hover, .nav-location:hover, .nav-contact:hover{
     color: black(210, 124, 12, 0.894);
     background: rgba(241, 160, 79, 0.877);
     transition: 0.5;
