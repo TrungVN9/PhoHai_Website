@@ -1,8 +1,12 @@
-
 .contact{
     font-family: 'Lusitana', serif;  
     display: flex;
     justify-content: center;
+    /* background-color: rgba(250, 235, 215, 0.894); */
+}
+.contact-background{
+    background-color: rgba(250, 235, 215, 0.894);
+    height: 100vh;
 }
 .contact-form{
     display: flex;
@@ -12,7 +16,8 @@
 }
 .contact-form h2{
     font-size: 40px;
-    margin: 40px;
+    padding-top: 50px;
+    text-transform: uppercase;
 }
 .form-input{
     font-family: 'Lusitana', serif;  
@@ -36,10 +41,10 @@
 }
 .form-button{
     font-family: 'Lusitana', serif;  
-    border: 1px solid rgba(210, 124, 12, 0.894);
+    border: 2px solid rgb(76 45 6 / 89%);
     border-radius: 20px;
     width: 20%;
-    background-color: rgba(250, 235, 215, 0.894);
+    background: rgba(233, 136, 10, 0.894);
     padding: 12px 30px;
     font-size: 20px;
     border: none;
@@ -47,7 +52,7 @@
 }
 .form-button:hover{
     color: black(210, 124, 12, 0.894);
-    background-color: rgba(210, 124, 12, 0.894);
+    background: rgba(241, 160, 79, 0.877);
     transition: 0.5s;
     cursor: pointer;
 }

@@ -1,0 +1,12 @@
+.about{
+    font-family: 'Lusitana', serif;  
+    background: rgba(250, 235, 215, 0.894);
+
+}
+.about h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}

@@ -13,9 +13,10 @@
     align-items: center;
     height: 75px;
     box-sizing: border-box;
-    background-color: rgba(250, 235, 215, 0.894);
     color: black;
     text-transform: uppercase;
+    background: rgba(233, 136, 10, 0.894);
+
 }
 .nav-links{
     display: flex;
@@ -23,6 +24,7 @@
     width: 75%;
 }
 .logo{
+    /* position: relative; */
     font-size: 40px;
     font-weight: bold;
 }
@@ -31,13 +33,15 @@
     font-size: 20px;
     padding: 10px 20px;
     margin: 0 10px;
-    border: 2px solid rgba(210, 124, 12, 0.894);
+    border: 2px solid rgb(76 45 6 / 89%);
     border-radius: 5px;
 }
+
 .nav-home:hover, .nav-menu:hover, .nav-review:hover, .nav-contact:hover{
     color: black(210, 124, 12, 0.894);
-    background-color: rgba(210, 124, 12, 0.894);
-    transition: 0.5s;
+    background: rgba(241, 160, 79, 0.877);
+    transition: 0.5;
+    transform: rotate(1deg);
 }
 @media screen and (max-width: 800px) {
     .logo{
