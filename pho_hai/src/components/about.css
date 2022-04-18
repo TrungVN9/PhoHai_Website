@@ -9,8 +9,12 @@
     padding-top: 50px;
     font-size: 40px;
     text-transform: uppercase;
+    color: rgb(254, 165, 0);
+
 }
-p{
+.about-text{
+    letter-spacing: 2px;
+    line-height: 50px;
     align-items: center;
     text-align: center;
     color: black;

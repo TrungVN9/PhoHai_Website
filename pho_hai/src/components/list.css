@@ -1,0 +1,48 @@
+.menu-item {
+    /* display: grid;
+    gap: 2px 4px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+.item-info header {
+    display: flex;
+    justify-content: space-between;
+  }
+.item-info h4 {
+    margin-bottom: 5px;
+  }
+.price {
+    color:  rgba(234, 129, 25, 0.877);
+    font-size: 20px;
+    margin-right: 10px;
+  }
+.title{
+    margin-top: 20px;
+    color:  rgba(234, 129, 25, 0.877);
+    font-size: 20px;
+    font-family: 'Lusitana', serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2, h3, h4 {
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  line-height: 20px;
+  font-family: 'Lusitana', serif;
+}
+.item-text {
+    margin-bottom: 0;
+    padding-top: 1rem;
+    color:  rgba(241, 160, 79, 0.877);
+    font-family: 'Lusitana', serif;
+
+}
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

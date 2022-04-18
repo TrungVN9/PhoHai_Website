@@ -8,4 +8,15 @@
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    color: rgb(254, 165, 0);
 }
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+    border: 2px solid rgb(254, 165, 0);
+    border-radius: 2px;
+  }

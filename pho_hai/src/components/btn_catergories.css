@@ -1,0 +1,23 @@
+.btn-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+  }
+.filter-btn {
+    font-family: 'Lusitana', serif;
+    font-weight: 600;
+    font-size: 25px;
+    background: transparent;
+    border-color: transparent;
+    text-transform: uppercase;
+    margin: 0 10px;
+    letter-spacing: 0.5px;
+    padding: 7px 12px;
+    color:  rgba(234, 129, 25, 0.877);
+    cursor: pointer;
+}   
+.filter-btn:active{
+    border-bottom: 2px solid;
+}
