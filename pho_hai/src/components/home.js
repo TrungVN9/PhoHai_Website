@@ -39,6 +39,7 @@ export default function Home() {
     <div className='home'>
       <h1>Welcome to Pho Hai Restaurant</h1>
       <h2>Authentic Family Owned</h2>
+      <h3>Unofficial Website</h3>
     <section className='slider'>
       <HiArrowCircleLeft className='left-slide' onClick={prevSlide} />
       <HiArrowCircleRight className='right-slide' onClick={nextSlide} />
